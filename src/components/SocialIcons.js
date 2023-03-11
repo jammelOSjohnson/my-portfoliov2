@@ -10,17 +10,55 @@ const SocialIcons = () => {
 
   return (
     <div className="socialIcons" style={styles.socialIcons}>
-      <a className="icon" style={styles.icon} href="https://github.com/mdyeates">
-        <i className="fa-brands fa-github" aria-hidden="true" title="Michael Yeates' GitHub Profile"></i>
+      <a
+        className="icon"
+        style={styles.icon}
+        href="https://github.com/jammelOSjohnson"
+        target={"_blank"}
+        rel={"noreferer"}
+      >
+        <i
+          className="fa-brands fa-github"
+          aria-hidden="true"
+          title="Jammel Johnson' GitHub Profile"
+        ></i>
       </a>
-      <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/mdyeates/">
-        <i className="fa-brands fa-linkedin" aria-hidden="true" title="Michael Yeates' LinkedIn Profile"></i>
+      <a
+        className="icon"
+        style={styles.icon}
+        href="https://www.linkedin.com/in/jammel-o-s-johnson-58739bb3/"
+        target={"_blank"}
+        rel={"noreferer"}
+      >
+        <i
+          className="fa-brands fa-linkedin"
+          aria-hidden="true"
+          title="Jammel Johnson' LinkedIn Profile"
+        ></i>
       </a>
-      <a className="icon" style={styles.icon} href="https://www.instagram.com/michael.yeates/">
-        <i className="fa-brands fa-instagram" aria-hidden="true" title="Michael Yeates' Instagram Profile"></i>
-      </a>
-      <a className="icon" style={styles.icon} href="https://twitter.com/mdyeates">
-        <i className="fa-brands fa-twitter" aria-hidden="true" title="Michael Yeates' Twitter Profile"></i>
+      {/* <a
+        className="icon"
+        style={styles.icon}
+        href="https://www.instagram.com/michael.yeates/"
+      >
+        <i
+          className="fa-brands fa-instagram"
+          aria-hidden="true"
+          title="Jammel Johnson' Instagram Profile"
+        ></i>
+      </a> */}
+      <a
+        className="icon"
+        style={styles.icon}
+        href="https://twitter.com/j_0_s_j"
+        target={"_blank"}
+        rel={"noreferer"}
+      >
+        <i
+          className="fa-brands fa-twitter"
+          aria-hidden="true"
+          title="Jammel Johnson' Twitter Profile"
+        ></i>
       </a>
     </div>
   );
