@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import landingImage from "../../images/me.svg";
+//import landingImage from "../../images/me.svg";
 import SocialIcons from "../../components/SocialIcons";
 
 const Landing = ({ name, tagline }) => {
