@@ -3,7 +3,7 @@
 /* --- VARIABLES --- */
 :root {
   --bg-color: #101010;
-  --hl-color: #009e66;
+  --hl-color: #34d399;
   --text-color: #f3f3f3;
   --secondary-text-color: #9f9f9f;
   --grey: #9f9f9f76;
@@ -36,7 +36,8 @@ html,
 body,
 #root {
   height: 100%;
-  background-color: var(--bg-color);
+  --background-color: var(--bg-color);
+  background: url("./images/heroImage.jpg") no-repeat;
 }
 
 body {
@@ -98,7 +99,7 @@ header {
 }
 
 .logo {
-  height: 30px;
+  height: 100px;
 }
 
 .links {
