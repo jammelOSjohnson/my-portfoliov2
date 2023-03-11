@@ -15,7 +15,7 @@ const SocialIcons = () => {
         style={styles.icon}
         href="https://github.com/jammelOSjohnson"
         target={"_blank"}
-        rel={"noreferer"}
+        rel={"noreferrer"}
       >
         <i
           className="fa-brands fa-github"
@@ -28,7 +28,7 @@ const SocialIcons = () => {
         style={styles.icon}
         href="https://www.linkedin.com/in/jammel-o-s-johnson-58739bb3/"
         target={"_blank"}
-        rel={"noreferer"}
+        rel={"noreferrer"}
       >
         <i
           className="fa-brands fa-linkedin"
@@ -52,7 +52,7 @@ const SocialIcons = () => {
         style={styles.icon}
         href="https://twitter.com/j_0_s_j"
         target={"_blank"}
-        rel={"noreferer"}
+        rel={"noreferrer"}
       >
         <i
           className="fa-brands fa-twitter"
