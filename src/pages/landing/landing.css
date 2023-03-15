@@ -40,6 +40,11 @@
 
   .landing .socialIcons {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 750px) {
+  .landing .socialIcons {
     left: auto;
   }
 }
