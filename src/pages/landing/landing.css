@@ -40,5 +40,6 @@
 
   .landing .socialIcons {
     flex-direction: column;
+    left: auto;
   }
 }
