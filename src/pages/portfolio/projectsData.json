@@ -38,5 +38,15 @@
     "deployed": "https://crushroadja.netlify.app",
     "bgcolor": "#f85781",
     "id": "4"
+  },
+  {
+    "title": "Level Ground",
+    "image": "./projectImages/LevelG.png",
+    "description": "Level Ground is a website landing page template design that I decided to use as HTML and CSS practice.",
+    "technologies": "Html | JS | CSS",
+    "github": "https://codepen.io/jammelosjohnson/pen/gOXvYrq",
+    "deployed": "https://codepen.io/jammelosjohnson/full/gOXvYrq",
+    "bgcolor": "#ffcc33",
+    "id": "5"
   }
 ]
