@@ -3,7 +3,7 @@
     "title": "MGK EXPRESS",
     "image": "./projectImages/bike.png",
     "description": "MGK Express is a courier service company that delivers packages to customers locally that were purchased in the USA.",
-    "technologies": "React | jQuery | Bootstrap",
+    "technologies": "React | NodeJs | Bootstrap | Firestore DB",
     "github": "#",
     "deployed": "https://mgkexpress.com",
     "bgcolor": "#f37737",
@@ -32,7 +32,7 @@
   {
     "title": "CrushRoadJA",
     "image": "./projectImages/crushroad.png",
-    "technologies": "Vite | MaterialUI | Firebase",
+    "technologies": "Vite | MaterialUI | Firestore DB",
     "description": "An app designed to make the new Jamaica road traffic act easier to read.",
     "github": "https://github.com/jammelOSjohnson/pdf-file-ready",
     "deployed": "https://crushroadja.netlify.app",
