@@ -82,14 +82,14 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               </div>
             </div>
             <div className="buttonContainer">
-              <button
+              {/* <button
                 className="btn downloadCV"
                 onClick={handleDownload}
                 disabled={downloading}
               >
                 {downloading ? "Downloading..." : "Download Resume"}
-              </button>{" "}
-              <SocialIcons />
+              </button>{" "} */}
+              {/* <SocialIcons /> */}
             </div>
           </div>
         </motion.div>
