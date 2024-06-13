@@ -17,18 +17,18 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     setDownloading(false);
   }, [downloading]);
 
-  const handleDownload = () => {
-    setDownloading(true);
-    const link = document.createElement("a");
-    link.href = resume;
-    link.download = "Jammel_Johnson-Software_Engineer.pdf";
-    link.onload = () => {
-      link.remove();
-      setDownloading(false);
-    };
-    document.body.appendChild(link);
-    link.click();
-  };
+  // const handleDownload = () => {
+  //   setDownloading(true);
+  //   const link = document.createElement("a");
+  //   link.href = resume;
+  //   link.download = "Jammel_Johnson-Software_Engineer.pdf";
+  //   link.onload = () => {
+  //     link.remove();
+  //     setDownloading(false);
+  //   };
+  //   document.body.appendChild(link);
+  //   link.click();
+  // };
 
   return (
     <div className="aboutContainer container">
