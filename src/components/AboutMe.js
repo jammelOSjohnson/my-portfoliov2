@@ -89,7 +89,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               >
                 {downloading ? "Downloading..." : "Download Resume"}
               </button>{" "} */}
-              {/* <SocialIcons /> */}
+              <SocialIcons />
             </div>
           </div>
         </motion.div>
